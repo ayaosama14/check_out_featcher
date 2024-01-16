@@ -23,7 +23,7 @@ class CustomElevateButton extends StatelessWidget {
       ),
       child: Text(
         textOfButton!,
-        style: Style.textStyle20,
+        style: Style.textStyle22,
       ),
     );
   }

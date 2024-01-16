@@ -9,7 +9,7 @@ customTextRow(String rowTitle, TextStyle style, String rowPrice) {
         style: style,
       ),
       Text(
-        '\$ $rowPrice',
+        '\$$rowPrice',
         style: style,
       )
     ],
