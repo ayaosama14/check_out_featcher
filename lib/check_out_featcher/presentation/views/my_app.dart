@@ -1,4 +1,3 @@
-import 'package:check_out/check_out_featcher/presentation/views/my_cart_view.dart';
 import 'package:check_out/check_out_featcher/presentation/views/payment_details.dart';
 import 'package:flutter/material.dart';
 

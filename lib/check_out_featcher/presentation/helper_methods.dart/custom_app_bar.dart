@@ -1,4 +1,4 @@
-import 'package:check_out/shared/constant.dart';
+import 'package:check_out/core/utilis/style.dart';
 import 'package:flutter/material.dart';
 
 customAppBar(String title, onPressed) {
@@ -11,6 +11,6 @@ customAppBar(String title, onPressed) {
           size: 27,
         ),
         onPressed: onPressed),
-    title: Center(child: Text(title, style: boldTextStyle)),
+    title: Center(child: Text(title, style: Style.textStyle18)),
   );
 }

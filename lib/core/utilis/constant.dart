@@ -6,5 +6,3 @@ SizedBox hSizeBox = const SizedBox(
 SizedBox wSizeBox = const SizedBox(
   width: 6,
 );
-var thinTextStyle = const TextStyle(fontSize: 20, color: Colors.black);
-var boldTextStyle = const TextStyle(fontSize: 25, color: Colors.black);

@@ -1,4 +1,5 @@
-import 'package:check_out/shared/constant.dart';
+import 'package:check_out/core/utilis/style.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
@@ -22,7 +23,7 @@ class CustomElevateButton extends StatelessWidget {
       ),
       child: Text(
         textOfButton!,
-        style: boldTextStyle,
+        style: Style.textStyle20,
       ),
     );
   }

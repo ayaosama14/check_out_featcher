@@ -1,9 +1,10 @@
 import 'package:check_out/check_out_featcher/presentation/helper_methods.dart/custom_app_bar.dart';
 import 'package:check_out/check_out_featcher/presentation/helper_methods.dart/custom_text_row.dart';
 import 'package:check_out/check_out_featcher/presentation/widgets/custom_elevated_button.dart';
-import 'package:check_out/shared/constant.dart';
+import 'package:check_out/core/utilis/constant.dart';
+import 'package:check_out/core/utilis/style.dart';
+
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 class MyCartView extends StatelessWidget {
   const MyCartView({super.key});
@@ -31,18 +32,18 @@ class MyCartView extends StatelessWidget {
               ),
             ),
             hSizeBox,
-            customTextRow('Order Subtotal', thinTextStyle, '45.0'),
+            customTextRow('Order Subtotal', Style.textStyle18, '45.0'),
             hSizeBox,
-            customTextRow('Discount', thinTextStyle, '4'),
+            customTextRow('Discount', Style.textStyle18, '4'),
             hSizeBox,
-            customTextRow('Shipping', thinTextStyle, '8'),
+            customTextRow('Shipping', Style.textStyle18, '8'),
             hSizeBox,
             const Divider(
               color: Colors.black,
               thickness: 2.0,
             ),
             hSizeBox,
-            customTextRow('Total', boldTextStyle, '8'),
+            customTextRow('Total', Style.textStyle20, '8'),
             hSizeBox,
             hSizeBox,
             Row(children: [

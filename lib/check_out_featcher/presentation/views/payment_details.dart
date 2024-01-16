@@ -1,7 +1,8 @@
 import 'package:check_out/check_out_featcher/presentation/helper_methods.dart/custom_app_bar.dart';
 import 'package:check_out/check_out_featcher/presentation/helper_methods.dart/custom_image_container.dart';
 import 'package:check_out/check_out_featcher/presentation/widgets/custom_courser_slider.dart';
-import 'package:check_out/shared/constant.dart';
+import 'package:check_out/core/utilis/constant.dart';
+import 'package:check_out/core/utilis/style.dart';
 
 import 'package:flutter/material.dart';
 
@@ -30,12 +31,12 @@ class PaymentDetails extends StatelessWidget {
             const CustomCarouselSlide(),
             hSizeBox,
             hSizeBox,
-            Row(
+            const Row(
               mainAxisAlignment: MainAxisAlignment.start,
               children: [
                 Text(
                   'Cart Number',
-                  style: thinTextStyle,
+                  style: Style.textStyle18,
                 ),
               ],
             ),
